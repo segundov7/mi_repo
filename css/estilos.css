@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(211, 204, 204);
+    width: 100vw;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4vh;
+}
+h2{
+    margin-top: 5vh;
+    font-family: sans-serif;
+}
+h3{
+    font-family: sans-serif;
+}
+.h3-contacto{
+    margin-top: 5vh;
+}
+li{
+    display: inline;
+    text-align: center;
+    margin: 7px;
+    padding: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+li a{
+    color: black;
+}
+a{
+    text-decoration: none;
+    
+}
+h1 a{
+    color: rgb(80, 15, 15);
+}
+.aside-h3{
+    margin-top: 5vh;
+}
+
+.imagen1{
+    margin-top: 5vh;
+    border-radius: 50%;
+    width: 300px;
+    height: 250px;
+}
+.imagenGaleria{
+    width: 235px;
+    height: 185px;
+}
+
+.container{
+    height: 100vh;
+}
+.container-cabaña{
+    height: 100vh;
+}
+
+.grid-cabañas{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 100px 100px 100px 100px;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.grid-cabañas div{
+    border: 1px solid black;
+}
+.grid-galeria{
+    display: grid;
+    grid-template-areas:
+    "foto-1 foto-2 foto-3 foto-4"
+    "foto-5 foto-6 foto-7 foto-8" ;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.foto-1{
+    grid-area: foto-1;
+}
+.foto-2{
+    grid-area: foto-2;
+}
+.foto-3{
+    grid-area: foto-3;
+}
+.foto-4{
+    grid-area: foto-4;
+}
+.foto-5{
+    grid-area: foto-5;
+}
+.foto-6{
+    grid-area: foto-6;
+}
+.foto-7{
+    grid-area: foto-7;
+}
+.foto-8{
+    grid-area: foto-8;
+}
+
+
+.grid-area{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main aside"
+    "main main aside"
+    "footer footer footer" ;
+    grid-template-columns: 40% 40% 20%;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.header{
+    background-color: #f5f5f5;
+    grid-area: header;
+}
+
+.nav{
+    background-color: aqua;
+    grid-area: nav;
+}
+
+.main{
+    background-color: crimson;
+    grid-area: main;  
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.aside{
+    background-color: blueviolet;
+    grid-area: aside;
+    margin-top: 5vh;
+    text-align: center;
+
+}
+
+.footer{
+    background-color: yellow;
+    grid-area: footer;
+    text-align: center;
+}
+
+
+
+@media screen  and (max-width: 1200px){
+
+    .grid-area{
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "main main aside"
+        "main main aside"
+        "footer footer footer" ;
+        grid-template-columns: 40% 40% 20%;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .grid-galeria{
+        display: grid;
+        grid-template-areas:
+        "foto-1 foto-2 foto-3"
+        "foto-4 foto-5 foto-6"
+        "foto-7 foto-8 foto-9" ;
+        justify-content: center;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .grid-area{
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "main main main"
+        "aside aside aside"
+        "footer footer footer" ;
+        grid-template-columns: 40% 40% 20%;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .grid-galeria{
+        display: grid;
+        grid-template-areas:
+        "foto-1 foto-2 foto-3"
+        "foto-4 foto-5 foto-6"
+        "foto-7 foto-8 foto-9" ;
+        justify-content: center;
+    
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-cabaña{
+        height: 100%;
+    }
+    .container{
+        height:100%;
+    }
+    .grid-galeria{
+        display: grid;
+        grid-template-areas:
+        "foto-1 foto-2"
+        "foto-3 foto-4"
+        "foto-5 foto-6" 
+        "foto-7 foto-8";
+        justify-content: center;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        height: 100%;
+    }
+    .grid-galeria{
+        display: grid;
+        grid-template-areas:
+        "foto-1"
+        "foto-2"
+        "foto-3" 
+        "foto-4"
+        "foto-5"
+        "foto-6"
+        "foto-7"
+        "foto-8";
+        justify-content: center;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+}
