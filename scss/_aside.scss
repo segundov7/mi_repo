@@ -1,0 +1,25 @@
+.aside{
+    background-color: blueviolet;
+    grid-area: aside;
+    margin-top: 5vh;
+    text-align: center;
+    height: 100%;
+    margin-top: 10vh;
+
+}
+.aside-h3{
+    margin-top: 5vh;
+}
+.flex-aside{
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 95%;
+        height: 30vh;
+    }
+
+}
+
+.img-aside:hover{
+    transform: skew(3deg, 3deg);
+}
