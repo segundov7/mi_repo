@@ -1,8 +1,9 @@
 .footer{
-    background-color: rgb(27, 27, 21);
+    background-color: $color-4;
     grid-area: footer;
     text-align: center;
     margin-top: 10vh;
     height: 100%;
     color: white;
+    
 }
