@@ -38,15 +38,14 @@ h1 a:hover {
   margin-top: 5vh;
 }
 
-.nombresCabañas {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: larger;
-  margin-top: 2rem;
+p {
   color: white;
 }
 
-p {
-  color: white;
+.nombreCaba {
+  color: black;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
@@ -86,6 +85,11 @@ p {
 
 .grid-cabañas div:hover {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.servicios_ul li {
+  color: white;
+  list-style: none;
 }
 
 .header {
@@ -137,24 +141,19 @@ p {
   margin-top: 5vh;
 }
 
-.flex-aside {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.grid-aside {
+  margin-top: 10vh;
+  display: -ms-grid;
+  display: grid;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.flex-aside img {
+.grid-aside img {
   width: 95%;
-  height: 30vh;
-}
-
-.img-aside:hover {
-  -webkit-transform: skew(3deg, 3deg);
-          transform: skew(3deg, 3deg);
+  height: 40vh;
 }
 
 .grid-area {
@@ -163,9 +162,6 @@ p {
       grid-template-areas: "header header header" "nav nav nav" "main main aside" "main main aside" "footer footer footer";
   -ms-grid-columns: 40% 40% 20%;
       grid-template-columns: 40% 40% 20%;
-  -webkit-column-gap: 10px;
-          column-gap: 10px;
-  row-gap: 10px;
 }
 
 @media screen and (max-width: 1200px) {
