@@ -1,0 +1,27 @@
+.galeria{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 100%;
+
+}
+.columna{
+    flex: 25%;
+    padding: 3px;
+}
+.columna img{
+    margin: 3px 0 0 0;
+}
+
+@media (max-width:800px){
+    .columna{
+        flex: 50%;
+    }
+}
+@media (max-width:600px){
+    .columna{
+        flex: 100%;
+    }
+}

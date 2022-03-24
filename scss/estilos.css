@@ -28,16 +28,6 @@ h1 a:hover {
   color: grey;
 }
 
-.aside-h3 {
-  color: white;
-  margin-top: 5vh;
-}
-
-.main-h2 {
-  color: white;
-  margin-top: 5vh;
-}
-
 p {
   color: white;
 }
@@ -92,6 +82,12 @@ p {
   list-style: none;
 }
 
+.main-h2 {
+  color: white;
+  margin-top: 8vh;
+  margin-bottom: 5vh;
+}
+
 .header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#493535), to(#070725));
   background-image: linear-gradient(to bottom, #493535, #070725);
@@ -137,10 +133,6 @@ p {
   margin-top: 10vh;
 }
 
-.aside-h3 {
-  margin-top: 5vh;
-}
-
 .grid-aside {
   margin-top: 10vh;
   display: -ms-grid;
@@ -154,6 +146,12 @@ p {
 .grid-aside img {
   width: 95%;
   height: 40vh;
+}
+
+.aside-h3 {
+  color: white;
+  margin-top: 8vh;
+  margin-bottom: 5vh;
 }
 
 .grid-area {
@@ -293,35 +291,6 @@ p {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .container-cabaña {
-    height: 100%;
-  }
-  .container {
-    height: 100%;
-  }
-  .grid-galeria {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas: "foto-1 foto-2" "foto-3 foto-4" "foto-5 foto-6"  "foto-7 foto-8";
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    row-gap: 5px;
-    -webkit-column-gap: 5px;
-            column-gap: 5px;
-  }
-  .flex-aside {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-}
-
 @media screen and (max-width: 480px) {
   .container {
     height: 100%;
@@ -348,25 +317,20 @@ p {
   }
 }
 
-.imagen1 {
-  margin-top: 5vh;
-  border-radius: 50%;
-  width: 300px;
-  height: 250px;
-}
-
 img {
   margin-bottom: 5vh;
 }
 
-.img-thumbnail:hover {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
+.img-inicio {
+  width: 90%;
+  height: 85vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.img-inicio {
-  width: 87%;
-  height: 85vh;
+.rounded {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .redesSociales, .btn--facebook, .btn--instagram, .btn--twitter, .btn--e-mail {
@@ -398,5 +362,46 @@ img {
 .box {
   width: 500px;
   height: 500px;
+}
+
+.galeria {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+img {
+  width: 100%;
+}
+
+.columna {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  padding: 3px;
+}
+
+.columna img {
+  margin: 3px 0 0 0;
+}
+
+@media (max-width: 800px) {
+  .columna {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .columna {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
