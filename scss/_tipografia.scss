@@ -1,6 +1,8 @@
 h1{
+    height: 2.3rem;
     font-family: $ff1;
     margin: 4vh;
+    
 }
 h2{
     color: $color-blanco;
@@ -17,6 +19,7 @@ h3{
 
 
 h1 a{
+    font-size: 100%;
     color: #ffffff;
     text-decoration: none;
     &:hover{
@@ -36,3 +39,4 @@ p{
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
 }
+

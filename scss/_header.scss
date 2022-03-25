@@ -5,8 +5,36 @@
     position: fixed;
     width: 100%;
 }
+.header-red{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4vw;
+    .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 3vw;
+        height: 5vh;
+        line-height: 5vh;
+        margin-top: 2vh;
+        margin-left: 4hw;
+        color: $color-blanco;
+        background-color: $color-red-social;
+        text-align: center;
+        &:hover{
+            color: aqua;
+        }
+    }
+    
+    
 
-.nav{
-    background-color: aqua;
-    grid-area: nav;
+}
+
+.container-fluid{
+    height: 1.5rem;
+}
+@media screen and (max-width: 988px) {
+    .container-fluid{
+        height: auto;
+    }
+    
 }

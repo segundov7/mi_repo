@@ -13,6 +13,7 @@ img{
 }
 .columna img{
     margin: 3px 0 0 0;
+    object-fit: cover;
 }
 
 @media (max-width:800px){
