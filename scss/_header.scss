@@ -38,3 +38,17 @@
     }
     
 }
+@media screen and(max-width: 840px) {
+    .header-red{
+        display: flex;
+        justify-content: start;
+        margin-right: 4vw;
+        .red-social a{
+            display: none;
+            
+        }
+        
+        
+    
+    }
+}

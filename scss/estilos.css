@@ -139,6 +139,21 @@ p {
   }
 }
 
+@media screen and (max-width: 840px) {
+  .header-red {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-right: 4vw;
+  }
+  .header-red .red-social a {
+    display: none;
+  }
+}
+
 .footer {
   background-color: #0b0b0b;
   -ms-grid-row: 5;
