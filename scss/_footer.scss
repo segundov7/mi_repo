@@ -38,7 +38,14 @@
         font-size: 15px;
     }
 }
-@media screen and(max-width:800px){
+@media screen and(max-width:912px){
+    .pie-pagina .grupo-2{
+        background-color: $color-negro;
+        padding: 1rem;
+        small{
+            font-size: 15px;
+        }
+    }
     .pie-pagina .grupo-1{
         width: 90%;
         
@@ -65,4 +72,33 @@
 
     
 }
+@media screen and(max-width:280px){
+    iframe{
+        width: 240px;
+    }
+    .pie-pagina .grupo-1{
+        width: 90%;
+        
+        margin-right: 4vh;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        .box1 h3{
+            margin-bottom: 4vh;
+        }
+        .box1 p{
+            text-align: center;
+        }
+        .red-social a{
+            display: inline-block;
+            text-decoration: none;
+            width: 8vw;
+            height: 5vh;
+            line-height: 5vh;
+            
+            color: $color-blanco;
+            background-color: $color-red-social;
+        }
+    }
 
+    
+}

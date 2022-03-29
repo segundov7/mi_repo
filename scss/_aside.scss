@@ -1,25 +1,22 @@
 .aside{
-    background-image:$color-3;
+    margin-top: 10vh;
+    background-image:$color-1;
     grid-area: aside;
-    margin-top: 5vh;
     text-align: center;
     height: 100%;
-    margin-top: 10vh;
-
+    width: 100%;
 }
 
 .grid-aside{
-    margin-top: 10vh;
+    margin-top: 21vh;
     display: grid;
     flex-direction: column;
     img{
         width: 95%;
         height: 40vh;
+        margin-right: 1vh;
     }
 
 }
-.aside-h3 {
-    color: $color-blanco;
-    margin-top: 9vh;
-    margin-bottom: 5vh;
-  }
+
+
