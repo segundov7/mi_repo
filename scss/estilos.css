@@ -59,11 +59,6 @@ p {
   margin-top: 10vh;
 }
 
-.servicios_ul li {
-  color: white;
-  list-style: none;
-}
-
 .main-h2 {
   color: white;
   margin-top: 9vh;
@@ -77,6 +72,31 @@ p {
 
 .caja-precios li {
   list-style: none;
+}
+
+.servicios {
+  text-align: center;
+}
+
+.servicios u {
+  font-size: 2rem;
+  color: white;
+}
+
+.servicios li {
+  color: white;
+  list-style: none;
+  font-size: 1.3rem;
+  text-align: start;
+}
+
+@media screen and (max-width: 820px) {
+  .servicios li {
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+    text-align: center;
+  }
 }
 
 .header {
