@@ -14,13 +14,18 @@
 }
 .caja-precios{
     color: $color-blanco;
-    text-align: left;
+    text-align: start;
+    margin-right: 30px;
+
 }
 .caja-precios li{
     list-style: none;
 }
 .servicios{
     text-align: center;
+    margin-right: 30px;
+
+
 }
 .servicios u{
     font-size: 2rem;

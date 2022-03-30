@@ -67,7 +67,8 @@ p {
 
 .caja-precios {
   color: white;
-  text-align: left;
+  text-align: start;
+  margin-right: 30px;
 }
 
 .caja-precios li {
@@ -76,6 +77,7 @@ p {
 
 .servicios {
   text-align: center;
+  margin-right: 30px;
 }
 
 .servicios u {
@@ -467,37 +469,6 @@ img {
 html, body {
   width: 100% !important;
   overflow-x: hidden !important;
-}
-
-.redesSociales, .btn--facebook, .btn--instagram, .btn--twitter, .btn--e-mail {
-  border: 2px white outset;
-  color: white;
-  text-decoration: none;
-}
-
-.redesSociales:hover, .btn--facebook:hover, .btn--instagram:hover, .btn--twitter:hover, .btn--e-mail:hover {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.btn--facebook {
-  background-color: #3a5795;
-}
-
-.btn--instagram {
-  background-color: #ff0095;
-}
-
-.btn--twitter {
-  background-color: #55acee;
-}
-
-.btn--e-mail {
-  background-color: #c25e30;
-}
-
-.box {
-  width: 500px;
-  height: 500px;
 }
 
 .galeria {
