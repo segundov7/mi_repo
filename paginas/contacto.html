@@ -44,20 +44,18 @@
       <div class="caja">
         <div>
             <h2 class="main-h2">CONTACTO</h2> 
+          <section class="formulario">
             <h3>Consulta de disponibilidad</h3>
-            
-                <input name="nombre" placeholder="Nombre"> <br><br>
-            
-                <input name="e-mail" placeholder="Correo electronico"><br><br>
-            
-                <input name="telefono" placeholder="Teléfono"> <br><br>
+                <input type="text" class="inputs" name="nombre" placeholder="Nombre">
+                <input type="text" class="inputs" name="e-mail" placeholder="Correo electronico">
+                <input type="tel" class="inputs" name="telefono" placeholder="Teléfono">
                 <p>Cantidad de adultos</p>
                 <select name="Cantidad">
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
                       <option value="4">4</option>
-                </select><br><br>
+                </select>
                 <p>Cantidad de niños</p>
                 <select name="Cantidad">
                       <option value="0">0</option>
@@ -65,15 +63,14 @@
                       <option value="2">2</option>
                       <option value="3">3</option>
                       <option value="4">4</option>
-                </select><br><br>
+                </select>
                 <p>Desde</p>
-                <input type="date"><br><br>
+                <input class="inputs" type="date">
                 <p>Hasta</p>
-                <input type="date"><br><br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea> <br>
-                    <input type="reset" value="borrar">
-                    <input type="submit" value="enviar">
-                   
+                <input class="inputs" type="date">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea> 
+                    <input class="boton" type="submit" value="Enviar">
+            </section>
         </div>
       </div>
     </main>

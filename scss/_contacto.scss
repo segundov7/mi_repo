@@ -1,0 +1,55 @@
+.formulario{
+    width: 400px;
+    background-color: $color-formulario-1;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family: $ff1;
+    h3{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    p{
+        text-align: start;
+        font-size: 18px;
+    }
+    select{
+        background-color: $color-formulario-1;
+        border: 1px solid $color-formulario-2;
+    }
+    .inputs{
+    width: 100%;
+    color: $color-blanco;
+    background-color: $color-formulario-1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid $color-formulario-2;
+    font-family: $ff1;
+    font-size: 18px;
+    }
+    .boton{
+        width: 100%;
+        background-color: $color-formulario-2;
+        border: none;
+        padding: 12px;
+        color: $color-blanco;
+        margin: 16px 0;
+        font-size: 18px;
+    }
+    textarea{
+        background-color: $color-formulario-1;
+        border: 1px solid $color-formulario-2;
+        color: $color-blanco;
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width:400px) {
+    .formulario{
+        width: 96%;
+    }
+    
+}
