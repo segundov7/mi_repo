@@ -361,7 +361,7 @@ p {
     margin-top: 15vh;
   }
   .aside {
-    margin-top: 5vh;
+    display: none;
   }
   .grid-aside {
     margin-top: 6vh;
