@@ -3,6 +3,7 @@
     grid-area: footer;
     height: 100%;
     color: white;
+    margin-top: 0%;
 }
 .pie-pagina{
     width: 100%;
@@ -38,6 +39,9 @@
     }
 }
 @media screen and(max-width:912px){
+    .footer{
+        height: 90%;
+    }
 
     .pie-pagina .grupo-2{
         background-color: $color-negro;

@@ -23,9 +23,7 @@
         grid-template-columns: 40% 40% 20%;
         
     }
-    .main{
-        margin-top: 5vh;
-    }
+
     .aside{
         margin-top: 5vh;
     }
@@ -35,9 +33,7 @@
 }
 
 @media screen and (max-width: 1024px){
-    .main{
-        margin-top: 10vh;
-    }
+
     .aside{
         margin-top: 10vh;
     }
@@ -56,9 +52,6 @@
         "footer footer footer" ;
         grid-template-columns: 40% 40% 20%;
       
-    }
-    .main{
-        margin-top: 5vh;
     }
     .caja{
         margin-top: 15vh;
@@ -88,9 +81,6 @@
 }
 @media screen and (max-width: 820px){
 
-    .main{
-        margin-top: 5vh;
-    }
     .aside{
         margin-top: 5vh;
     }
@@ -109,9 +99,6 @@
 @media screen and (max-width: 768px) {
 
  
-    .main{
-        margin-top: 6vh;
-    }
     .aside{
         margin-top: 6vh;
     }

@@ -10,3 +10,11 @@ img{
 .rounded{
     object-fit: cover;
 }
+@media screen and (max-width:500px) {
+    .img-inicio{
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+    }
+    
+}
