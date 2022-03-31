@@ -23,7 +23,7 @@
 }
 .servicios{
     text-align: center;
-    margin-right: 30px;
+
 
 
 }
@@ -34,7 +34,8 @@
 .servicios li{
     color: $color-blanco;
     list-style: none;
-    font-size: 20px;
+    font-size: 20px; 
+    margin-right: 30px;
     text-align: start;
 }
 @media screen and (max-width:820px) {
